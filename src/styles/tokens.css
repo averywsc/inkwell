@@ -1,0 +1,99 @@
+:root {
+  /* Crisp Warm Paper Palette */
+  --bg-paper: #FAF9F6;
+  --bg-surface: #F0EEE9;
+  --bg-elevated: #FFFFFF;
+  --bg-glass: rgba(250, 249, 246, 0.9);
+  --ink-primary: #141413;
+  --ink-secondary: #5A5854;
+  --ink-muted: #87847E;
+  --border-subtle: rgba(20, 20, 19, 0.08);
+  --border-medium: rgba(20, 20, 19, 0.14);
+  --border-strong: rgba(20, 20, 19, 0.24);
+  --accent-fill: #18181B;
+  --accent-text: #FFFFFF;
+  --accent-warm: #2563EB;
+  --accent-warm-soft: rgba(37, 99, 235, 0.1);
+  --badge-comic: #D9483B;
+  --badge-manga: #6D28D9;
+  --highlight-bg: rgba(250, 204, 21, 0.34);
+  --highlight-border: rgba(180, 130, 12, 0.55);
+  --shadow-book: 0 6px 18px rgba(15, 15, 14, 0.1), 0 1px 4px rgba(15, 15, 14, 0.07);
+  --shadow-book-hover: 0 14px 28px rgba(15, 15, 14, 0.16), 0 4px 10px rgba(15, 15, 14, 0.08);
+  --shadow-panel: 0 20px 50px rgba(15, 15, 14, 0.14), 0 4px 14px rgba(15, 15, 14, 0.06);
+  --grain-opacity: 0.015;
+  --frontlight-tint: transparent;
+  --glow-rgb: 37, 99, 235;
+  --glow-opacity: 0;
+  --glow-strength: 0.14;
+
+  /* Clean Modern App Typography (Inter UI + Source Serif 4 Reading) */
+  --font-display: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-wordmark: 'Source Serif 4', Georgia, serif;
+  --font-ui: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-serif-source: 'Source Serif 4', Georgia, serif;
+  --font-serif-literata: 'Literata', Georgia, serif;
+  --font-serif-lora: 'Lora', Georgia, serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono-read: 'IBM Plex Mono', ui-monospace, monospace;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+}
+
+/* Warm Sepia Reading Mode */
+[data-theme='frontlight'] {
+  --bg-paper: #F4ECD8;
+  --bg-surface: #E9DEC5;
+  --bg-elevated: #FAF3E3;
+  --bg-glass: rgba(244, 236, 216, 0.92);
+  --ink-primary: #2B2218;
+  --ink-secondary: #625342;
+  --ink-muted: #8C7B68;
+  --border-subtle: rgba(43, 34, 24, 0.1);
+  --border-medium: rgba(43, 34, 24, 0.17);
+  --border-strong: rgba(43, 34, 24, 0.28);
+  --accent-fill: #2B2218;
+  --accent-text: #FAF3E3;
+  --accent-warm: #B45309;
+  --accent-warm-soft: rgba(180, 83, 9, 0.14);
+  --badge-comic: #B93B2F;
+  --badge-manga: #6D28D9;
+  --highlight-bg: rgba(202, 138, 4, 0.25);
+  --highlight-border: rgba(161, 98, 7, 0.55);
+  --shadow-book: 0 8px 20px rgba(42, 30, 14, 0.13), 0 2px 5px rgba(42, 30, 14, 0.08);
+  --shadow-book-hover: 0 14px 30px rgba(42, 30, 14, 0.2), 0 4px 10px rgba(42, 30, 14, 0.1);
+  --shadow-panel: 0 18px 48px rgba(34, 24, 12, 0.18);
+  --grain-opacity: 0.025;
+  --frontlight-tint: rgba(255, 198, 108, 0.04);
+}
+
+/* Night Mode */
+[data-theme='night'] {
+  --bg-paper: #121214;
+  --bg-surface: #1B1B1F;
+  --bg-elevated: #222227;
+  --bg-glass: rgba(18, 18, 20, 0.9);
+  --ink-primary: #F2F2F4;
+  --ink-secondary: #A1A1AA;
+  --ink-muted: #71717A;
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-medium: rgba(255, 255, 255, 0.15);
+  --border-strong: rgba(255, 255, 255, 0.25);
+  --accent-fill: #F4F4F5;
+  --accent-text: #121214;
+  --accent-warm: #60A5FA;
+  --accent-warm-soft: rgba(96, 165, 250, 0.16);
+  --badge-comic: #EF5347;
+  --badge-manga: #8B5CF6;
+  --highlight-bg: rgba(250, 204, 21, 0.22);
+  --highlight-border: rgba(250, 204, 21, 0.55);
+  --shadow-book: 0 10px 26px rgba(0, 0, 0, 0.52), 0 2px 6px rgba(0, 0, 0, 0.35);
+  --shadow-book-hover: 0 16px 36px rgba(0, 0, 0, 0.68), 0 5px 12px rgba(0, 0, 0, 0.45);
+  --shadow-panel: 0 20px 56px rgba(0, 0, 0, 0.68);
+  --grain-opacity: 0.012;
+  --frontlight-tint: transparent;
+  --glow-strength: 0.22;
+}
